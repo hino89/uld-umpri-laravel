@@ -1,33 +1,28 @@
-<nav class="bg-gray-800 sticky top-0 z-20" x-data="{ isOpen: false }">
+<nav class="bg-white bg-opacity-95 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-300" x-data="{ isOpen: false }">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="flex h-16 items-center justify-between">
+        <div class="flex h-24 items-center justify-between">
             <div class="flex items-center">
-            <div class="shrink-0">
-                <img class="size-8" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
-            </div>
-            <div class="hidden md:block">
-                <div class="ml-10 flex items-baseline space-x-4">
-                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <x-nav-link href='/' :active="request()->is('/')">Home</x-nav-link>
-                <x-nav-link href='/about' :active="request()->is('about')">Tentang Kami</x-nav-link>
-                <x-nav-link href='/kegiatan' :active="request()->is('kegiatan')">Kegiatan</x-nav-link>
-                <x-nav-link href='/contact' :active=" request()->is('contact')">Contact</x-nav-link>
-                <!-- 
-                <x-nav-link href='/test' :active=" request()->is('test')">Test</x-nav-link>
-                -->
+                <div class="shrink-0">
+                    <img class="size-16" src="{{ asset('images/logo-umpri.png') }}" alt="Logo Umpri">
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                        <x-nav-link href='/' :active="request()->is('/')">Home</x-nav-link>
+                        <x-nav-link href='/about' :active="request()->is('about')">Tentang Kami</x-nav-link>
+                        <x-nav-link href='/kegiatan' :active="request()->is('kegiatan')">Kegiatan</x-nav-link>
+                        <x-nav-link href='/contact' :active=" request()->is('contact')">Berita</x-nav-link>
+                        <x-nav-link href='/pembelajaran' :active=" request()->is('pembelajaran')">Pembejaran</x-nav-link>
+                        <!-- 
+                        <x-nav-link href='/test' :active=" request()->is('test')">Test</x-nav-link>
+                        -->
+                    </div>
                 </div>
             </div>
-            </div>
-            <div class="hidden md:block">
-            <div class="ml-4 flex items-center md:ml-6">
 
-                <!-- Profile dropdown -->
-                
-            </div>
-            </div>
             <div class="-mr-2 flex md:hidden">
             <!-- Mobile menu button -->
-            <button type="button" @click="isOpen = !isOpen" class="relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" aria-controls="mobile-menu" aria-expanded="false">
+            <button type="button" @click="isOpen = !isOpen" class="relative inline-flex items-center justify-center rounded-md bg-white p-2 text-black hover:bg-gray-300 hover:text-white " aria-controls="mobile-menu" aria-expanded="false">
                 <span class="absolute -inset-0.5"></span>
                 <span class="sr-only">Open main menu</span>
                 <!-- Menu open: "hidden", Menu closed: "block" -->
@@ -45,12 +40,13 @@
 
         <!-- Mobile menu, show/hide based on menu state. -->
         <div x-show="isOpen" class="md:hidden" id="mobile-menu">
-        <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
+        <div class="py-3 flex flex-col mx-4">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <x-nav-link href='/' :active="request()->is('/')">Home</x-nav-link>
             <x-nav-link href='/about' :active="request()->is('about')">Tentang Kami</x-nav-link>
             <x-nav-link href='/kegiatan' :active="request()->is('kegiatan')">Kegiatan</x-nav-link>
-            <x-nav-link href='/contact' :active=" request()->is('contact')">Contact</x-nav-link>
+            <x-nav-link href='/contact' :active=" request()->is('contact')">Berita</x-nav-link>
+            <x-nav-link href='/pembelajaran' :active=" request()->is('pembelajaran')">Pembejaran</x-nav-link>
             <!-- 
             <x-nav-link href='/test' :active=" request()->is('test')">Test</x-nav-link>
             -->
