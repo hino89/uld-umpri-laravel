@@ -11,7 +11,9 @@
                         <x-nav-link href='/' :active="request()->is('/')">Home</x-nav-link>
                         <x-nav-link href='/about' :active="request()->is('about')">Tentang Kami</x-nav-link>
                         <x-nav-link href='/kegiatan' :active="request()->is('kegiatan')">Kegiatan</x-nav-link>
+                        <!--
                         <x-nav-link href='/contact' :active=" request()->is('contact')">Berita</x-nav-link>
+                        -->
                         <!-- 
                         <x-nav-link href='/pembelajaran' :active=" request()->is('pembelajaran')">Pembejaran</x-nav-link>
                         -->
@@ -47,7 +49,9 @@
             <x-nav-link href='/' :active="request()->is('/')">Home</x-nav-link>
             <x-nav-link href='/about' :active="request()->is('about')">Tentang Kami</x-nav-link>
             <x-nav-link href='/kegiatan' :active="request()->is('kegiatan')">Kegiatan</x-nav-link>
+            <!--
             <x-nav-link href='/contact' :active=" request()->is('contact')">Berita</x-nav-link>
+            -->
             <!--
             <x-nav-link href='/pembelajaran' :active=" request()->is('pembelajaran')">Pembejaran</x-nav-link>
             -->
