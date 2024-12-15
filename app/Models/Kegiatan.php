@@ -9,44 +9,29 @@ class Kegiatan {
         return [
             [
                 'id' => 1,
-                'slug' => 'judul-kegiatan-1',
-                'judul' => 'Hari Bahasa Isyarat Internasional',
+                'slug' => 'peresmian-uld',
+                'judul' => 'Peresmian ULD UMPRI',
                 'tanggal' => '-',
                 'body' => 'lorem lorem lorem',
-                'images' => ['image1', 'image2', 'image3']
+                'images' => [asset('images/home-images/IMG_1085.JPG'), 'image2', 'image3']
             ],
             [
                 'id' => 2,
-                'slug' => 'judul-kegiatan-2',
-                'judul' => 'SPM Teman Tuli 2024',
+                'slug' => 'hari-isyarat-internasional',
+                'judul' => 'Hari Bahasa Isyarat Internasional',
                 'tanggal' => '-',
                 'body' => 'lorem lorem lorem',
-                'images' => ['image1', 'image2', 'image3']
+                'images' => [asset('images/home-images/IMG_8239.JPG'), 'image2', 'image3']
             ],
             [
                 'id' => 3,
-                'slug' => 'judul-kegiatan-3',
+                'slug' => 'kelas-bahasa-isyarat',
                 'judul' => 'Kelas Bahasa Isyarat',
                 'tanggal' => '12 Desember 2024',
                 'body' => 'lorem lorem lorem',
-                'images' => ['image1', 'image2', 'image3']
+                'images' => [asset('images/home-images/IMG_1218.JPG'), 'image2', 'image3']
             ],
-            [
-                'id' => 4,
-                'slug' => 'judul-kegiatan-4',
-                'judul' => 'Kegiatan 4',
-                'tanggal' => '12 Desember 2024',
-                'body' => 'lorem lorem lorem',
-                'images' => ['image1', 'image2', 'image3']
-            ],
-            [
-                'id' => 5,
-                'slug' => 'judul-kegiatan-5',
-                'judul' => 'Kegiatan 5',
-                'tanggal' => '12 Desember 2024',
-                'body' => 'lorem lorem lorem',
-                'images' => ['image1', 'image2', 'image3']
-            ]
+            
         ];
     }
 
