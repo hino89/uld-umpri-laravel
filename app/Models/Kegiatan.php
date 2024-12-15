@@ -13,7 +13,7 @@ class Kegiatan {
                 'judul' => 'Peresmian ULD UMPRI',
                 'tanggal' => '-',
                 'body' => 'lorem lorem lorem',
-                'images' => [asset('images/home-images/IMG_1085.JPG'), 'image2', 'image3']
+                'images' => [asset('images/home-images/IMG_1085.jpg'), 'image2', 'image3']
             ],
             [
                 'id' => 2,
@@ -21,7 +21,7 @@ class Kegiatan {
                 'judul' => 'Hari Bahasa Isyarat Internasional',
                 'tanggal' => '-',
                 'body' => 'lorem lorem lorem',
-                'images' => [asset('images/home-images/IMG_8239.JPG'), 'image2', 'image3']
+                'images' => [asset('images/home-images/IMG_8239.jpg'), 'image2', 'image3']
             ],
             [
                 'id' => 3,
@@ -29,7 +29,7 @@ class Kegiatan {
                 'judul' => 'Kelas Bahasa Isyarat',
                 'tanggal' => '12 Desember 2024',
                 'body' => 'lorem lorem lorem',
-                'images' => [asset('images/home-images/IMG_1218.JPG'), 'image2', 'image3']
+                'images' => [asset('images/home-images/IMG_1218.jpg'), 'image2', 'image3']
             ],
             
         ];
