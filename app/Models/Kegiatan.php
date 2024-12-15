@@ -13,7 +13,7 @@ class Kegiatan {
                 'judul' => 'Peresmian ULD UMPRI',
                 'tanggal' => '-',
                 'body' => 'lorem lorem lorem',
-                'images' => [asset('images/home-images/IMG_1085.jpg'), 'image2', 'image3']
+                'images' => [asset('images/home-images/IMG_1085.JPG'), 'image2', 'image3']
             ],
             [
                 'id' => 2,
