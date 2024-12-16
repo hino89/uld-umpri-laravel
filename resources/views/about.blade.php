@@ -65,7 +65,7 @@
 
 
   <div 
-  class="relative isolate px-6 py-24 sm:py-32 lg:px-8 bg-white bg-cover bg-center w-full bg-[url(@'{{ asset('/images/rektoratUmpri.jpg') }}')]">
+  class="relative isolate px-6 py-24 sm:py-32 lg:px-8 bg-white bg-cover bg-center w-full bg-[url('@{{ asset('/images/rektoratUmpri.jpg') }}')]">
     <!--
     
       https://instagram.fcgk10-1.fna.fbcdn.net/v/t51.29350-15/338868304_3551241728533883_9172276489341429222_n.webp?stp=dst-jpg_e35_tt6&_nc_ht=instagram.fcgk10-1.fna.fbcdn.net&_nc_cat=111&_nc_oc=Q6cZ2AGAuqC4PxlpX3bb-e0dctkocUNUe6uG7ejqhYlkmJtfVPGAUdycs9LYcbWpWDc2-qg&_nc_ohc=AdYaheG44IgQ7kNvgE-O4QJ&_nc_gid=e5cc42faf4e94b21aae0cb415a4f99af&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBnhIcX_e9ed5vmaBr9m9OLR1Fh7SmlsJe30TeOViOuvw&oe=67659F2C&_nc_sid=d885a2
