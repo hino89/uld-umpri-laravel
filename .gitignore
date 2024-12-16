@@ -20,4 +20,4 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
-/storage/public/images
+/storage/app/public/images
